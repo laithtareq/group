@@ -1,14 +1,14 @@
 x = float(input("input x: "))
 y = float(input("input y: "))
-
+z = 0
 try:
     z = x / y
-    print(z)
-except NameError:
-    print("Error")
-except ZeroDivisionError:
-    print("divide by zero")
+#except ZeroDivisionError:
+#    z = 0
+#except NameError:
+#    print("X is not defined")
 except:
-    print("error")
+    pass
 finally:
     print("Done")
+print(z)
