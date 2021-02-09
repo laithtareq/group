@@ -9,7 +9,12 @@
 #print(L)
 #print(''.join(L))
 #print(Name.strip())
-x = 5
-y = 10
-Data = "x = {}, y = {}".format(x,y)
-print(Data)
+#x = 5
+#y = 10
+#Data = "x = {}, y = {}".format(x,y)
+#print(Data)
+Name = "Python"
+#print(dir(Name))
+print(len(Name))
+print(Name.__len__())
+#Name.isupper()
