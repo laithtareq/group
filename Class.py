@@ -1,5 +1,5 @@
 class Computer:
-    RAM = 16
+    RAM = 20
     def brand():
         return "HP"
 
